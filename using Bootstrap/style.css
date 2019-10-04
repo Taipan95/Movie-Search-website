@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+#searchText {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#search, #movieTitle, .nomatch {
+    text-decoration: underline;
+    color: #40dd32;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+#movieDetails {
+    color: rgb(37, 37, 37);
+    background-color: rgb(131, 131, 131);
+}
+
+strong {
+    color: rgb(32, 32, 32);
+}
+
+.jumbotron {
+    background-color: rgba(100, 100, 100, 0.459);
+    border: 2px ridge #42d335d0;
+    border-radius: 20px;
+}
+
+#results .well {
+    height: 450px;
+}
+
+.well {
+    background-color: rgba(100, 100, 100, 0.459);
+    border: 2px ridge #42d335d0;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#results img{
+    height: 310px;
+}
+
+button {
+    background-color: #27951d;
+    border-color: #42d335d0;
+    border-radius: 20px;
+    font-size: 1.2em;
+    color: white;
+}
+
+#movieContainer {
+    position: relative;
+}
+
+#movie {
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+label {
+    text-align: right;
+    clear: both;
+    float: left;
+    margin-right: 15px;
+}

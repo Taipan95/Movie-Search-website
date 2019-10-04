@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0-rc.2/themes/smoothness/jquery-ui.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="text-center" id="search">Search for any movie</h3>
+            <form id="searchForm">
+                <input type="text" class="form-control" name="Search" id="searchText"
+                    placeholder="Type the name of the movie">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div id="results" class="row h-100"></div>
+    </div>
+    <div class="container">
+        <div class="nomatch"></div>
+    </div>
+    <div-- class="container" id="popup" style="display:none">
+        <div class="row">
+            <div class="col-md-3">
+                <img id="poster" src="">
+            </div>
+            <div class="col-md-9">
+                <h2 id="movieTitle"></h2>
+                <div class="well" id="movieDetails">
+                    <label for="rating"><strong>IMDB Rating:</strong></label>
+                    <p id="rating"></p>
+                    <p id="genre"><strong>Genre: </strong></p>
+                    <p id="actors"><strong>Actors: </strong></p>
+                    <p id="released"><strong>Released: </strong></p>
+                    <p id="rated"><strong>Rated: </strong></p>
+                    <p id="plot"><strong>Plot: </strong></p>
+                </div>
+            </div>
+        </div>
+        <!--div class="row">
+            <div class="col">
+                <button id="back" onclick="window.location.href='index.html'">Back to search</button>
+            </div>
+        </div-->
+    </div>
+    <script src="js-search.js"></script>
+
+</body>
+
+</html>
